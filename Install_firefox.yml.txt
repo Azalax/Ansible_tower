@@ -1,0 +1,9 @@
+---
+- name: install test
+  hosts: all_server
+  
+  tasks:
+  - name: install postgre
+    yum:
+      name: postgre
+	  state: present
