@@ -4,6 +4,6 @@
   
   tasks:
   - name: install apache2
-    yum:
+    package:
       name: apache2
 	  state: present

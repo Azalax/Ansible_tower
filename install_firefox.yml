@@ -4,6 +4,6 @@
   
   tasks:
   - name: install firefox
-    yum:
+    package:
       name: postgre
 	  state: firefox
