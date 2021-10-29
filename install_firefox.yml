@@ -6,4 +6,4 @@
   - name: install firefox
     package:
       name: postgre
-	  state: firefox
+      state: firefox
