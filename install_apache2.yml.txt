@@ -3,7 +3,7 @@
   hosts: all_server
   
   tasks:
-  - name: install firefox
+  - name: install apache2
     yum:
-      name: postgre
-	  state: firefox
+      name: apache2
+	  state: present
