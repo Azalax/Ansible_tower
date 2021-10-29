@@ -1,9 +1,0 @@
----
-- name: install test
-  hosts: all_server
-  
-  tasks:
-  - name: install apache2
-    yum:
-      name: apache2
-	  state: present
